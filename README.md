@@ -28,3 +28,11 @@ on change
 # par
 #[Route('/', name: 'homepage')]
 ```
+
+## Copie de .env en .env.local
+    cp .env .env.local
+
+### Choix de la DB et modification du `.env.local`
+
+### Création de la DB
+    php bin/console doctrine:database:create
