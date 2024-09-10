@@ -36,3 +36,14 @@ on change
 
 ### Création de la DB
     php bin/console doctrine:database:create
+
+### Création de l'entité `Post`
+
+    php bin/console make:entity Post
+
+Création des fichiers
+Avec l'id comme seul attribut
+
+Si on veut le remplir on retape la même commande
+
+    php bin/console make:entity Post
