@@ -60,3 +60,7 @@ un fichier est créé ddans le dossier `migrations`, on peut vérifier les requ�
 
 ### Création de l'entité `Section`
     php bin/console make:entity Section
+
+On refait une migration, on a une table `section` et une table `m2m` `section_post`
+
+On va mettre 3 posts de test et 2 sections 
