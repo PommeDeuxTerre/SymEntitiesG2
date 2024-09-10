@@ -47,3 +47,16 @@ Avec l'id comme seul attribut
 Si on veut le remplir on retape la même commande
 
     php bin/console make:entity Post
+
+
+### Première migration
+    php bin/console make:migration
+
+un fichier est créé ddans le dossier `migrations`, on peut vérifier les requêtes SQL qui sont effectuées, ici nous acceptons pour voir le résultat
+
+    php bin/console doctrine:migrations:migrate
+
+### Modification de `src/Entity/Post.php`
+
+```php
+```
