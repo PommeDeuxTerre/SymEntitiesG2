@@ -64,3 +64,11 @@ un fichier est créé ddans le dossier `migrations`, on peut vérifier les requ�
 On refait une migration, on a une table `section` et une table `m2m` `section_post`
 
 On va mettre 3 posts de test et 2 sections 
+
+### On va faire un crud sur `Post`
+
+Dans une branch à part `testCrud2Tables`
+
+    php bin/console make:crud Post
+
+le fichier `` est créé
