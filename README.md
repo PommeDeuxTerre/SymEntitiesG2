@@ -58,5 +58,5 @@ un fichier est créé ddans le dossier `migrations`, on peut vérifier les requ�
 
 ### Modification de `src/Entity/Post.php`
 
-```php
-```
+### Création de l'entité `Section`
+    php bin/console make:entity Section
